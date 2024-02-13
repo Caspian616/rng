@@ -1,0 +1,27 @@
+*{ /* apply to all properties in html */
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik Doodle Shadow", sans-serif; /* apply font family to all elements */
+}
+
+h2 {
+    color: #1C50F5;
+    font-size: 20px;
+}
+
+.generator{
+    width: 80%;
+    margin: auto;
+    padding-top: 350px; /* space from the top */
+    padding-bottom: 5px; /* space from the bottom */
+    text-align: center;
+}
+
+.row{
+    display: flex; /* flex container */
+    justify-content: center;
+}
+
+.column{
+    flex-basis: 5%; /* set width to be 48% of the container's width */
+}
