@@ -7,21 +7,66 @@
 h2 {
     color: #1C50F5;
     font-size: 20px;
+    padding-bottom: 10px;
 }
 
 .generator{
     width: 80%;
     margin: auto;
     padding-top: 350px; /* space from the top */
-    padding-bottom: 5px; /* space from the bottom */
-    text-align: center;
 }
 
 .row{
     display: flex; /* flex container */
     justify-content: center;
+    text-align: center;
+    flex-direction: column;
 }
 
-.column{
-    flex-basis: 5%; /* set width to be 48% of the container's width */
+input{
+    margin: 8px 0;
+    padding: 2px 5px;
+    box-sizing: border-box;
 }
+
+button{
+    margin-top: 8px;
+    padding: 2px 5px;
+    font-weight: bold;
+}
+
+h2.randomNumber{
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+/* contact */
+
+.contact{
+    padding-top: 230px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.contact h2{
+    margin-bottom: 10px;
+}
+
+.contact a i {
+    color:rgb(30, 48, 80);
+}
+
+/* footer */
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 20px;
+    color: #000;
+    font-size: 12px;
+  }
