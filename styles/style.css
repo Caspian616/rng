@@ -7,7 +7,6 @@
 h2 {
     color: #1C50F5;
     font-size: 20px;
-    padding-bottom: 10px;
 }
 
 .generator{
@@ -60,12 +59,9 @@ h2.randomNumber{
 /* footer */
 
 footer {
-    position: absolute;
-    bottom: 0px;
     width: 80%;
-    left: 50%;
-    transform: translateX(-50%);
     text-align: center;
+    margin: auto;
     padding: 20px;
     color: #000;
     font-size: 12px;
